@@ -15,10 +15,14 @@
 		CECC73F31DF7A50000703EE7 /* WSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECC73F21DF7A50000703EE7 /* WSNavigationController.m */; };
 		CECC73F61DF7A63100703EE7 /* WSHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECC73F51DF7A63100703EE7 /* WSHomeViewController.m */; };
 		CECC73F91DF7A65400703EE7 /* WSMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECC73F81DF7A65400703EE7 /* WSMessageViewController.m */; };
-		CECC73FC1DF7A69700703EE7 /* WSDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECC73FB1DF7A69700703EE7 /* WSDiscoverViewController.m */; };
 		CECC73FF1DF7A6B100703EE7 /* WSMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECC73FE1DF7A6B100703EE7 /* WSMeViewController.m */; };
 		CECC74091DF7B33700703EE7 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CECC74051DF7B33700703EE7 /* UIBarButtonItem+Extension.m */; };
 		CECC740A1DF7B33700703EE7 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CECC74071DF7B33700703EE7 /* UIView+Extension.m */; };
+		CECDDE4D1DF903B5007F5FA9 /* WSThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECDDE4A1DF903B5007F5FA9 /* WSThreeViewController.m */; };
+		CECDDE4E1DF903B5007F5FA9 /* WSTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECDDE4C1DF903B5007F5FA9 /* WSTwoViewController.m */; };
+		CECDDE521DF942AF007F5FA9 /* WSDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECDDE511DF942AF007F5FA9 /* WSDiscoverViewController.m */; };
+		CECDDE561DF943BB007F5FA9 /* WSDiscoverSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CECDDE541DF943BB007F5FA9 /* WSDiscoverSearchBar.m */; };
+		CECDDE5A1DF945A9007F5FA9 /* WSDiscoverSearchBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = CECDDE591DF945A9007F5FA9 /* WSDiscoverSearchBar.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,14 +41,22 @@
 		CECC73F51DF7A63100703EE7 /* WSHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSHomeViewController.m; sourceTree = "<group>"; };
 		CECC73F71DF7A65400703EE7 /* WSMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSMessageViewController.h; sourceTree = "<group>"; };
 		CECC73F81DF7A65400703EE7 /* WSMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSMessageViewController.m; sourceTree = "<group>"; };
-		CECC73FA1DF7A69700703EE7 /* WSDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSDiscoverViewController.h; sourceTree = "<group>"; };
-		CECC73FB1DF7A69700703EE7 /* WSDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSDiscoverViewController.m; sourceTree = "<group>"; };
 		CECC73FD1DF7A6B100703EE7 /* WSMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSMeViewController.h; sourceTree = "<group>"; };
 		CECC73FE1DF7A6B100703EE7 /* WSMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSMeViewController.m; sourceTree = "<group>"; };
 		CECC74041DF7B33700703EE7 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
 		CECC74051DF7B33700703EE7 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
 		CECC74061DF7B33700703EE7 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		CECC74071DF7B33700703EE7 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		CECDDE491DF903B5007F5FA9 /* WSThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSThreeViewController.h; sourceTree = "<group>"; };
+		CECDDE4A1DF903B5007F5FA9 /* WSThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSThreeViewController.m; sourceTree = "<group>"; };
+		CECDDE4B1DF903B5007F5FA9 /* WSTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSTwoViewController.h; sourceTree = "<group>"; };
+		CECDDE4C1DF903B5007F5FA9 /* WSTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSTwoViewController.m; sourceTree = "<group>"; };
+		CECDDE4F1DF92FE4007F5FA9 /* myPCH.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myPCH.pch; sourceTree = "<group>"; };
+		CECDDE501DF942AF007F5FA9 /* WSDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSDiscoverViewController.h; sourceTree = "<group>"; };
+		CECDDE511DF942AF007F5FA9 /* WSDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSDiscoverViewController.m; sourceTree = "<group>"; };
+		CECDDE531DF943BB007F5FA9 /* WSDiscoverSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSDiscoverSearchBar.h; sourceTree = "<group>"; };
+		CECDDE541DF943BB007F5FA9 /* WSDiscoverSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSDiscoverSearchBar.m; sourceTree = "<group>"; };
+		CECDDE591DF945A9007F5FA9 /* WSDiscoverSearchBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WSDiscoverSearchBar.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +105,7 @@
 				CEACFF651DEFB98000D6088A /* Assets.xcassets */,
 				CEACFF8E1DEFD36500D6088A /* Info.plist */,
 				CEACFF921DEFD3A900D6088A /* main.m */,
+				CECDDE4F1DF92FE4007F5FA9 /* myPCH.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -100,9 +113,10 @@
 		CEACFF711DEFD2F700D6088A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				CECDDE481DF903B5007F5FA9 /* Tmp */,
 				CECC74001DF7B33700703EE7 /* Lib */,
-				CEACFF761DEFD2F700D6088A /* Home */,
 				CEACFF7A1DEFD2F700D6088A /* Main */,
+				CEACFF761DEFD2F700D6088A /* Home */,
 				CEACFF821DEFD2F700D6088A /* Message */,
 				CEACFF721DEFD2F700D6088A /* Discover */,
 				CEACFF7E1DEFD2F700D6088A /* Me */,
@@ -116,8 +130,6 @@
 				CEACFF731DEFD2F700D6088A /* Controller */,
 				CEACFF741DEFD2F700D6088A /* Model */,
 				CEACFF751DEFD2F700D6088A /* View */,
-				CECC73FA1DF7A69700703EE7 /* WSDiscoverViewController.h */,
-				CECC73FB1DF7A69700703EE7 /* WSDiscoverViewController.m */,
 			);
 			path = Discover;
 			sourceTree = "<group>";
@@ -125,6 +137,8 @@
 		CEACFF731DEFD2F700D6088A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				CECDDE501DF942AF007F5FA9 /* WSDiscoverViewController.h */,
+				CECDDE511DF942AF007F5FA9 /* WSDiscoverViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -139,6 +153,9 @@
 		CEACFF751DEFD2F700D6088A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CECDDE531DF943BB007F5FA9 /* WSDiscoverSearchBar.h */,
+				CECDDE541DF943BB007F5FA9 /* WSDiscoverSearchBar.m */,
+				CECDDE591DF945A9007F5FA9 /* WSDiscoverSearchBar.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -303,6 +320,17 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
+		CECDDE481DF903B5007F5FA9 /* Tmp */ = {
+			isa = PBXGroup;
+			children = (
+				CECDDE4B1DF903B5007F5FA9 /* WSTwoViewController.h */,
+				CECDDE4C1DF903B5007F5FA9 /* WSTwoViewController.m */,
+				CECDDE491DF903B5007F5FA9 /* WSThreeViewController.h */,
+				CECDDE4A1DF903B5007F5FA9 /* WSThreeViewController.m */,
+			);
+			path = Tmp;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -364,6 +392,7 @@
 			files = (
 				CEACFF8F1DEFD36500D6088A /* Info.plist in Resources */,
 				CEACFF661DEFB98000D6088A /* Assets.xcassets in Resources */,
+				CECDDE5A1DF945A9007F5FA9 /* WSDiscoverSearchBar.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,14 +404,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				CECC73F91DF7A65400703EE7 /* WSMessageViewController.m in Sources */,
+				CECDDE521DF942AF007F5FA9 /* WSDiscoverViewController.m in Sources */,
 				CECC73F61DF7A63100703EE7 /* WSHomeViewController.m in Sources */,
 				CECC740A1DF7B33700703EE7 /* UIView+Extension.m in Sources */,
 				CECC73FF1DF7A6B100703EE7 /* WSMeViewController.m in Sources */,
-				CECC73FC1DF7A69700703EE7 /* WSDiscoverViewController.m in Sources */,
+				CECDDE4D1DF903B5007F5FA9 /* WSThreeViewController.m in Sources */,
+				CECDDE561DF943BB007F5FA9 /* WSDiscoverSearchBar.m in Sources */,
 				CECC74091DF7B33700703EE7 /* UIBarButtonItem+Extension.m in Sources */,
 				CEACFF941DEFD3A900D6088A /* main.m in Sources */,
 				CECC73F31DF7A50000703EE7 /* WSNavigationController.m in Sources */,
 				CEACFF971DEFD43700D6088A /* WSTabController.m in Sources */,
+				CECDDE4E1DF903B5007F5FA9 /* WSTwoViewController.m in Sources */,
 				CEACFF931DEFD3A900D6088A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +452,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DEWeibo(WS)/myPCH.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -466,6 +499,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DEWeibo(WS)/myPCH.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;

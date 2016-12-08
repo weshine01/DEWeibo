@@ -1,0 +1,17 @@
+//
+//  myPCH.pch
+//  DEWeibo(WS)
+//
+//  Created by user on 2016/12/8.
+//  Copyright © 2016年 王韦翔. All rights reserved.
+//
+
+#ifndef myPCH_pch
+#define myPCH_pch
+
+#define MethodLog NSLog(@"%s",__func__);
+
+#import "UIBarButtonItem+Extension.h"
+#import "UIView+Extension.h"
+
+#endif /* myPCH_pch */

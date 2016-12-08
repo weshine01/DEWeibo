@@ -32,7 +32,7 @@
     // 1.获取导航控制器的子控制器的个数
     NSInteger navChildCount = self.viewControllers.count;
     
-    NSLog(@"===%ld",self.viewControllers.count);
+//    NSLog(@"===%ld",self.viewControllers.count);
     if (navChildCount > 0) {
         // 隐藏tabbar
         viewController.hidesBottomBarWhenPushed = YES;
