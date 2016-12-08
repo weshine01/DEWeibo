@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "WSTabController.h"
+#import "WSNewFeatureController.h"
 
 @interface AppDelegate ()
 
@@ -17,13 +18,33 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-
+    
+    // 1.初始化窗口
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
-    WSTabController *tabController = [[WSTabController alloc] init];
-
-    self.window.rootViewController = tabController;
     
+    // 2.设置根控制器
+    // 2.1如果用户没用使用过软件，显示新特性
+    // 从沙盒取版本号
+    NSString *version = [NSUserDefaults versionFromSandBox];
+    NSString *currentVision = [NSUserDefaults versionFromInfoPlist];
+    
+    NSLog(@"== %@",version);
+    if(version == nil){//代表未使用过应用
+        WSNewFeatureController *newContr =[[WSNewFeatureController alloc] init];
+        self.window.rootViewController = newContr;
+    }else if([currentVision doubleValue] > [version doubleValue]){
+        // 2.2如果版本号更新，显示新特性
+        WSNewFeatureController *newContr =[[WSNewFeatureController alloc] init];
+        self.window.rootViewController = newContr;
+    }else{
+        // 2.3显示TabbarController
+        WSTabController *tabController = [[WSTabController alloc] init];
+        self.window.rootViewController = tabController;
+    }
+    
+    
+    // 3.显示窗口
     [self.window makeKeyAndVisible];
     
     

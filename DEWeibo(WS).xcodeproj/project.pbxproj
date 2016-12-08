@@ -26,6 +26,11 @@
 		CECDDE5F1DF959CE007F5FA9 /* WSTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CECDDE5C1DF959CE007F5FA9 /* WSTitleButton.m */; };
 		CECDDE601DF959CE007F5FA9 /* WSPopController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECDDE5E1DF959CE007F5FA9 /* WSPopController.m */; };
 		CECDDE661DF95A8A007F5FA9 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CECDDE651DF95A8A007F5FA9 /* UIImage+Extension.m */; };
+		CECDDE691DF97DB0007F5FA9 /* WSTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = CECDDE681DF97DB0007F5FA9 /* WSTabbar.m */; };
+		CECDDE731DF9813A007F5FA9 /* WSNewFeatureController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECDDE6D1DF9813A007F5FA9 /* WSNewFeatureController.m */; };
+		CECDDE741DF9813A007F5FA9 /* WSBeginView.m in Sources */ = {isa = PBXBuildFile; fileRef = CECDDE711DF9813A007F5FA9 /* WSBeginView.m */; };
+		CECDDE781DF98214007F5FA9 /* NSUserDefaults+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CECDDE771DF98214007F5FA9 /* NSUserDefaults+Extension.m */; };
+		CECDDE7A1DF982C1007F5FA9 /* WSBeginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CECDDE791DF982C1007F5FA9 /* WSBeginView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +71,15 @@
 		CECDDE5E1DF959CE007F5FA9 /* WSPopController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPopController.m; sourceTree = "<group>"; };
 		CECDDE641DF95A8A007F5FA9 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
 		CECDDE651DF95A8A007F5FA9 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		CECDDE671DF97DB0007F5FA9 /* WSTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSTabbar.h; sourceTree = "<group>"; };
+		CECDDE681DF97DB0007F5FA9 /* WSTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSTabbar.m; sourceTree = "<group>"; };
+		CECDDE6C1DF9813A007F5FA9 /* WSNewFeatureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSNewFeatureController.h; sourceTree = "<group>"; };
+		CECDDE6D1DF9813A007F5FA9 /* WSNewFeatureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSNewFeatureController.m; sourceTree = "<group>"; };
+		CECDDE701DF9813A007F5FA9 /* WSBeginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSBeginView.h; sourceTree = "<group>"; };
+		CECDDE711DF9813A007F5FA9 /* WSBeginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSBeginView.m; sourceTree = "<group>"; };
+		CECDDE761DF98214007F5FA9 /* NSUserDefaults+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+Extension.h"; sourceTree = "<group>"; };
+		CECDDE771DF98214007F5FA9 /* NSUserDefaults+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+Extension.m"; sourceTree = "<group>"; };
+		CECDDE791DF982C1007F5FA9 /* WSBeginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WSBeginView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +138,7 @@
 			children = (
 				CECDDE481DF903B5007F5FA9 /* Tmp */,
 				CECC74001DF7B33700703EE7 /* Lib */,
+				CECDDE6A1DF9813A007F5FA9 /* NewFeature */,
 				CEACFF7A1DEFD2F700D6088A /* Main */,
 				CEACFF761DEFD2F700D6088A /* Home */,
 				CEACFF821DEFD2F700D6088A /* Message */,
@@ -237,6 +252,8 @@
 		CEACFF7D1DEFD2F700D6088A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CECDDE671DF97DB0007F5FA9 /* WSTabbar.h */,
+				CECDDE681DF97DB0007F5FA9 /* WSTabbar.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -331,6 +348,8 @@
 				CECC74071DF7B33700703EE7 /* UIView+Extension.m */,
 				CECDDE641DF95A8A007F5FA9 /* UIImage+Extension.h */,
 				CECDDE651DF95A8A007F5FA9 /* UIImage+Extension.m */,
+				CECDDE761DF98214007F5FA9 /* NSUserDefaults+Extension.h */,
+				CECDDE771DF98214007F5FA9 /* NSUserDefaults+Extension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -344,6 +363,42 @@
 				CECDDE4A1DF903B5007F5FA9 /* WSThreeViewController.m */,
 			);
 			path = Tmp;
+			sourceTree = "<group>";
+		};
+		CECDDE6A1DF9813A007F5FA9 /* NewFeature */ = {
+			isa = PBXGroup;
+			children = (
+				CECDDE6B1DF9813A007F5FA9 /* Controller */,
+				CECDDE6E1DF9813A007F5FA9 /* Model */,
+				CECDDE6F1DF9813A007F5FA9 /* View */,
+			);
+			path = NewFeature;
+			sourceTree = "<group>";
+		};
+		CECDDE6B1DF9813A007F5FA9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CECDDE6C1DF9813A007F5FA9 /* WSNewFeatureController.h */,
+				CECDDE6D1DF9813A007F5FA9 /* WSNewFeatureController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CECDDE6E1DF9813A007F5FA9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CECDDE6F1DF9813A007F5FA9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CECDDE701DF9813A007F5FA9 /* WSBeginView.h */,
+				CECDDE711DF9813A007F5FA9 /* WSBeginView.m */,
+				CECDDE791DF982C1007F5FA9 /* WSBeginView.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -407,6 +462,7 @@
 			files = (
 				CEACFF8F1DEFD36500D6088A /* Info.plist in Resources */,
 				CEACFF661DEFB98000D6088A /* Assets.xcassets in Resources */,
+				CECDDE7A1DF982C1007F5FA9 /* WSBeginView.xib in Resources */,
 				CECDDE5A1DF945A9007F5FA9 /* WSDiscoverSearchBar.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,7 +474,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CECDDE731DF9813A007F5FA9 /* WSNewFeatureController.m in Sources */,
 				CECC73F91DF7A65400703EE7 /* WSMessageViewController.m in Sources */,
+				CECDDE741DF9813A007F5FA9 /* WSBeginView.m in Sources */,
 				CECDDE521DF942AF007F5FA9 /* WSDiscoverViewController.m in Sources */,
 				CECDDE661DF95A8A007F5FA9 /* UIImage+Extension.m in Sources */,
 				CECC73F61DF7A63100703EE7 /* WSHomeViewController.m in Sources */,
@@ -427,7 +485,9 @@
 				CECDDE5F1DF959CE007F5FA9 /* WSTitleButton.m in Sources */,
 				CECDDE4D1DF903B5007F5FA9 /* WSThreeViewController.m in Sources */,
 				CECDDE561DF943BB007F5FA9 /* WSDiscoverSearchBar.m in Sources */,
+				CECDDE691DF97DB0007F5FA9 /* WSTabbar.m in Sources */,
 				CECC74091DF7B33700703EE7 /* UIBarButtonItem+Extension.m in Sources */,
+				CECDDE781DF98214007F5FA9 /* NSUserDefaults+Extension.m in Sources */,
 				CEACFF941DEFD3A900D6088A /* main.m in Sources */,
 				CECC73F31DF7A50000703EE7 /* WSNavigationController.m in Sources */,
 				CEACFF971DEFD43700D6088A /* WSTabController.m in Sources */,

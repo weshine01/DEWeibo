@@ -30,3 +30,11 @@ AppDelegate.m里初始化window，设置跟控制器，并显示，
 --第二部分
 自定义WSTitleButton，用于显示主要导航栏的标题
 自定义WSPopController，点击主要导航栏标题会弹出一个视图
+自定义WSTabBar，用KVC替换tabController的tabBar
+    // 设置选中的文字颜色为橙色，默认蓝色
+    -(void)tabBar:(UITabBar *)tabBar didSelectItem:(UITabBarItem *)item{
+        [tabBar setNeedsLayout];
+    }
+显示新特性，NewFeature文件夹和AppDelegate.m
+
+

@@ -12,6 +12,7 @@
 #import "WSMessageViewController.h"
 #import "WSDiscoverViewController.h"
 #import "WSMeViewController.h"
+#import "WSTabbar.h"
 
 @interface WSTabController ()
 
@@ -23,7 +24,17 @@
     [super viewDidLoad];
     
     // 添加子控制器
+    [self setupChildVC];
     
+    // 修改tabBar
+    WSTabbar *tabBar = [[WSTabbar alloc] init];
+    [self setValue:tabBar forKey:@"tabBar"];
+
+    
+}
+
+
+- (void)setupChildVC{
     // 添加首页
     WSHomeViewController *homeVc = [[WSHomeViewController alloc] init];
     [self addChildVCWith:homeVc title:@"首页" nmlImgName:@"tabbar_home" selImgName:@"tabbar_home_selected"];
@@ -40,10 +51,7 @@
     //添加我
     WSMeViewController *meVc = [[WSMeViewController alloc] init];
     [self addChildVCWith:meVc title:@"我" nmlImgName:@"tabbar_profile" selImgName:@"tabbar_profile_selected"];
-
-    
 }
-
 
 // 添加tabController的子控制器，用导航控制器包装
 -(void)addChildVCWith:(UIViewController *)vc title:(NSString *)title nmlImgName:(NSString *)nmlImgName selImgName:(NSString *)selImgName {
@@ -67,5 +75,13 @@
     
     
 }
+
+
+-(void)tabBar:(UITabBar *)tabBar didSelectItem:(UITabBarItem *)item{
+    //    MethodLog
+    // 内部设置选中的文字颜色
+    [tabBar setNeedsLayout];
+}
+
 
 @end
