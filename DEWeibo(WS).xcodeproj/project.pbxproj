@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEACFF661DEFB98000D6088A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEACFF651DEFB98000D6088A /* Assets.xcassets */; };
+		CEACFF8F1DEFD36500D6088A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEACFF8E1DEFD36500D6088A /* Info.plist */; };
+		CEACFF931DEFD3A900D6088A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEACFF911DEFD3A900D6088A /* AppDelegate.m */; };
+		CEACFF941DEFD3A900D6088A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEACFF921DEFD3A900D6088A /* main.m */; };
+		CEACFF971DEFD43700D6088A /* WSTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEACFF961DEFD43700D6088A /* WSTabController.m */; };
+		CECC73F31DF7A50000703EE7 /* WSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECC73F21DF7A50000703EE7 /* WSNavigationController.m */; };
+		CECC73F61DF7A63100703EE7 /* WSHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECC73F51DF7A63100703EE7 /* WSHomeViewController.m */; };
+		CECC73F91DF7A65400703EE7 /* WSMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECC73F81DF7A65400703EE7 /* WSMessageViewController.m */; };
+		CECC73FC1DF7A69700703EE7 /* WSDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECC73FB1DF7A69700703EE7 /* WSDiscoverViewController.m */; };
+		CECC73FF1DF7A6B100703EE7 /* WSMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECC73FE1DF7A6B100703EE7 /* WSMeViewController.m */; };
+		CECC74091DF7B33700703EE7 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CECC74051DF7B33700703EE7 /* UIBarButtonItem+Extension.m */; };
+		CECC740A1DF7B33700703EE7 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CECC74071DF7B33700703EE7 /* UIView+Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CEACFF561DEFB98000D6088A /* DEWeibo(WS).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DEWeibo(WS).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEACFF651DEFB98000D6088A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEACFF701DEFCCAF00D6088A /* note.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = note.m; path = "DEWeibo(WS)/note.m"; sourceTree = "<group>"; };
+		CEACFF8E1DEFD36500D6088A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEACFF901DEFD3A900D6088A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEACFF911DEFD3A900D6088A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEACFF921DEFD3A900D6088A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEACFF951DEFD43700D6088A /* WSTabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSTabController.h; sourceTree = "<group>"; };
+		CEACFF961DEFD43700D6088A /* WSTabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSTabController.m; sourceTree = "<group>"; };
+		CECC73F11DF7A50000703EE7 /* WSNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSNavigationController.h; sourceTree = "<group>"; };
+		CECC73F21DF7A50000703EE7 /* WSNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSNavigationController.m; sourceTree = "<group>"; };
+		CECC73F41DF7A63100703EE7 /* WSHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSHomeViewController.h; sourceTree = "<group>"; };
+		CECC73F51DF7A63100703EE7 /* WSHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSHomeViewController.m; sourceTree = "<group>"; };
+		CECC73F71DF7A65400703EE7 /* WSMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSMessageViewController.h; sourceTree = "<group>"; };
+		CECC73F81DF7A65400703EE7 /* WSMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSMessageViewController.m; sourceTree = "<group>"; };
+		CECC73FA1DF7A69700703EE7 /* WSDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSDiscoverViewController.h; sourceTree = "<group>"; };
+		CECC73FB1DF7A69700703EE7 /* WSDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSDiscoverViewController.m; sourceTree = "<group>"; };
+		CECC73FD1DF7A6B100703EE7 /* WSMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSMeViewController.h; sourceTree = "<group>"; };
+		CECC73FE1DF7A6B100703EE7 /* WSMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSMeViewController.m; sourceTree = "<group>"; };
+		CECC74041DF7B33700703EE7 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		CECC74051DF7B33700703EE7 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		CECC74061DF7B33700703EE7 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		CECC74071DF7B33700703EE7 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEACFF531DEFB98000D6088A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEACFF4D1DEFB98000D6088A = {
+			isa = PBXGroup;
+			children = (
+				CEACFF701DEFCCAF00D6088A /* note.m */,
+				CEACFF581DEFB98000D6088A /* DEWeibo(WS) */,
+				CEACFF571DEFB98000D6088A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEACFF571DEFB98000D6088A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEACFF561DEFB98000D6088A /* DEWeibo(WS).app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEACFF581DEFB98000D6088A /* DEWeibo(WS) */ = {
+			isa = PBXGroup;
+			children = (
+				CEACFF711DEFD2F700D6088A /* Classes */,
+				CEACFF861DEFD2F700D6088A /* Others */,
+				CEACFF591DEFB98000D6088A /* Supporting Files */,
+			);
+			path = "DEWeibo(WS)";
+			sourceTree = "<group>";
+		};
+		CEACFF591DEFB98000D6088A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEACFF901DEFD3A900D6088A /* AppDelegate.h */,
+				CEACFF911DEFD3A900D6088A /* AppDelegate.m */,
+				CEACFF651DEFB98000D6088A /* Assets.xcassets */,
+				CEACFF8E1DEFD36500D6088A /* Info.plist */,
+				CEACFF921DEFD3A900D6088A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEACFF711DEFD2F700D6088A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CECC74001DF7B33700703EE7 /* Lib */,
+				CEACFF761DEFD2F700D6088A /* Home */,
+				CEACFF7A1DEFD2F700D6088A /* Main */,
+				CEACFF821DEFD2F700D6088A /* Message */,
+				CEACFF721DEFD2F700D6088A /* Discover */,
+				CEACFF7E1DEFD2F700D6088A /* Me */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CEACFF721DEFD2F700D6088A /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				CEACFF731DEFD2F700D6088A /* Controller */,
+				CEACFF741DEFD2F700D6088A /* Model */,
+				CEACFF751DEFD2F700D6088A /* View */,
+				CECC73FA1DF7A69700703EE7 /* WSDiscoverViewController.h */,
+				CECC73FB1DF7A69700703EE7 /* WSDiscoverViewController.m */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		CEACFF731DEFD2F700D6088A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CEACFF741DEFD2F700D6088A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CEACFF751DEFD2F700D6088A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CEACFF761DEFD2F700D6088A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CEACFF771DEFD2F700D6088A /* Controller */,
+				CEACFF781DEFD2F700D6088A /* Model */,
+				CEACFF791DEFD2F700D6088A /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CEACFF771DEFD2F700D6088A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CECC73F41DF7A63100703EE7 /* WSHomeViewController.h */,
+				CECC73F51DF7A63100703EE7 /* WSHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CEACFF781DEFD2F700D6088A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CEACFF791DEFD2F700D6088A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CEACFF7A1DEFD2F700D6088A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CEACFF7B1DEFD2F700D6088A /* Controller */,
+				CEACFF7C1DEFD2F700D6088A /* Model */,
+				CEACFF7D1DEFD2F700D6088A /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		CEACFF7B1DEFD2F700D6088A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CEACFF951DEFD43700D6088A /* WSTabController.h */,
+				CEACFF961DEFD43700D6088A /* WSTabController.m */,
+				CECC73F11DF7A50000703EE7 /* WSNavigationController.h */,
+				CECC73F21DF7A50000703EE7 /* WSNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CEACFF7C1DEFD2F700D6088A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CEACFF7D1DEFD2F700D6088A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CEACFF7E1DEFD2F700D6088A /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				CEACFF7F1DEFD2F700D6088A /* Controller */,
+				CEACFF801DEFD2F700D6088A /* Model */,
+				CEACFF811DEFD2F700D6088A /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		CEACFF7F1DEFD2F700D6088A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CECC73FD1DF7A6B100703EE7 /* WSMeViewController.h */,
+				CECC73FE1DF7A6B100703EE7 /* WSMeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CEACFF801DEFD2F700D6088A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CEACFF811DEFD2F700D6088A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CEACFF821DEFD2F700D6088A /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				CEACFF831DEFD2F700D6088A /* Controller */,
+				CEACFF841DEFD2F700D6088A /* Model */,
+				CEACFF851DEFD2F700D6088A /* View */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		CEACFF831DEFD2F700D6088A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CECC73F71DF7A65400703EE7 /* WSMessageViewController.h */,
+				CECC73F81DF7A65400703EE7 /* WSMessageViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CEACFF841DEFD2F700D6088A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CEACFF851DEFD2F700D6088A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CEACFF861DEFD2F700D6088A /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		CECC74001DF7B33700703EE7 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				CECC74011DF7B33700703EE7 /* Category */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		CECC74011DF7B33700703EE7 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				CECC74041DF7B33700703EE7 /* UIBarButtonItem+Extension.h */,
+				CECC74051DF7B33700703EE7 /* UIBarButtonItem+Extension.m */,
+				CECC74061DF7B33700703EE7 /* UIView+Extension.h */,
+				CECC74071DF7B33700703EE7 /* UIView+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEACFF551DEFB98000D6088A /* DEWeibo(WS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEACFF6D1DEFB98000D6088A /* Build configuration list for PBXNativeTarget "DEWeibo(WS)" */;
+			buildPhases = (
+				CEACFF521DEFB98000D6088A /* Sources */,
+				CEACFF531DEFB98000D6088A /* Frameworks */,
+				CEACFF541DEFB98000D6088A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DEWeibo(WS)";
+			productName = "DEWeibo(WS)";
+			productReference = CEACFF561DEFB98000D6088A /* DEWeibo(WS).app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEACFF4E1DEFB98000D6088A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WS;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "王韦翔";
+				TargetAttributes = {
+					CEACFF551DEFB98000D6088A = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CEACFF511DEFB98000D6088A /* Build configuration list for PBXProject "DEWeibo(WS)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEACFF4D1DEFB98000D6088A;
+			productRefGroup = CEACFF571DEFB98000D6088A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEACFF551DEFB98000D6088A /* DEWeibo(WS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEACFF541DEFB98000D6088A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEACFF8F1DEFD36500D6088A /* Info.plist in Resources */,
+				CEACFF661DEFB98000D6088A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEACFF521DEFB98000D6088A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECC73F91DF7A65400703EE7 /* WSMessageViewController.m in Sources */,
+				CECC73F61DF7A63100703EE7 /* WSHomeViewController.m in Sources */,
+				CECC740A1DF7B33700703EE7 /* UIView+Extension.m in Sources */,
+				CECC73FF1DF7A6B100703EE7 /* WSMeViewController.m in Sources */,
+				CECC73FC1DF7A69700703EE7 /* WSDiscoverViewController.m in Sources */,
+				CECC74091DF7B33700703EE7 /* UIBarButtonItem+Extension.m in Sources */,
+				CEACFF941DEFD3A900D6088A /* main.m in Sources */,
+				CECC73F31DF7A50000703EE7 /* WSNavigationController.m in Sources */,
+				CEACFF971DEFD43700D6088A /* WSTabController.m in Sources */,
+				CEACFF931DEFD3A900D6088A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CEACFF6B1DEFB98000D6088A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEACFF6C1DEFB98000D6088A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEACFF6E1DEFB98000D6088A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "DEWeibo(WS)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.wwx.DEWeibo-WS-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEACFF6F1DEFB98000D6088A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "DEWeibo(WS)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.wwx.DEWeibo-WS-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEACFF511DEFB98000D6088A /* Build configuration list for PBXProject "DEWeibo(WS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEACFF6B1DEFB98000D6088A /* Debug */,
+				CEACFF6C1DEFB98000D6088A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEACFF6D1DEFB98000D6088A /* Build configuration list for PBXNativeTarget "DEWeibo(WS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEACFF6E1DEFB98000D6088A /* Debug */,
+				CEACFF6F1DEFB98000D6088A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEACFF4E1DEFB98000D6088A /* Project object */;
+}
