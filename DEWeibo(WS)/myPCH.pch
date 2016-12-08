@@ -13,5 +13,7 @@
 
 #import "UIBarButtonItem+Extension.h"
 #import "UIView+Extension.h"
+#import "UIImage+Extension.h"
+
 
 #endif /* myPCH_pch */

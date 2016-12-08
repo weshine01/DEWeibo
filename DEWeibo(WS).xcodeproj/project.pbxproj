@@ -23,6 +23,9 @@
 		CECDDE521DF942AF007F5FA9 /* WSDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECDDE511DF942AF007F5FA9 /* WSDiscoverViewController.m */; };
 		CECDDE561DF943BB007F5FA9 /* WSDiscoverSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CECDDE541DF943BB007F5FA9 /* WSDiscoverSearchBar.m */; };
 		CECDDE5A1DF945A9007F5FA9 /* WSDiscoverSearchBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = CECDDE591DF945A9007F5FA9 /* WSDiscoverSearchBar.xib */; };
+		CECDDE5F1DF959CE007F5FA9 /* WSTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CECDDE5C1DF959CE007F5FA9 /* WSTitleButton.m */; };
+		CECDDE601DF959CE007F5FA9 /* WSPopController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECDDE5E1DF959CE007F5FA9 /* WSPopController.m */; };
+		CECDDE661DF95A8A007F5FA9 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CECDDE651DF95A8A007F5FA9 /* UIImage+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +60,12 @@
 		CECDDE531DF943BB007F5FA9 /* WSDiscoverSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSDiscoverSearchBar.h; sourceTree = "<group>"; };
 		CECDDE541DF943BB007F5FA9 /* WSDiscoverSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSDiscoverSearchBar.m; sourceTree = "<group>"; };
 		CECDDE591DF945A9007F5FA9 /* WSDiscoverSearchBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WSDiscoverSearchBar.xib; sourceTree = "<group>"; };
+		CECDDE5B1DF959CE007F5FA9 /* WSTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSTitleButton.h; sourceTree = "<group>"; };
+		CECDDE5C1DF959CE007F5FA9 /* WSTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSTitleButton.m; sourceTree = "<group>"; };
+		CECDDE5D1DF959CE007F5FA9 /* WSPopController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPopController.h; sourceTree = "<group>"; };
+		CECDDE5E1DF959CE007F5FA9 /* WSPopController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPopController.m; sourceTree = "<group>"; };
+		CECDDE641DF95A8A007F5FA9 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		CECDDE651DF95A8A007F5FA9 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +109,12 @@
 		CEACFF591DEFB98000D6088A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CECDDE4F1DF92FE4007F5FA9 /* myPCH.pch */,
 				CEACFF901DEFD3A900D6088A /* AppDelegate.h */,
 				CEACFF911DEFD3A900D6088A /* AppDelegate.m */,
 				CEACFF651DEFB98000D6088A /* Assets.xcassets */,
 				CEACFF8E1DEFD36500D6088A /* Info.plist */,
 				CEACFF921DEFD3A900D6088A /* main.m */,
-				CECDDE4F1DF92FE4007F5FA9 /* myPCH.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -189,6 +198,10 @@
 		CEACFF791DEFD2F700D6088A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CECDDE5B1DF959CE007F5FA9 /* WSTitleButton.h */,
+				CECDDE5C1DF959CE007F5FA9 /* WSTitleButton.m */,
+				CECDDE5D1DF959CE007F5FA9 /* WSPopController.h */,
+				CECDDE5E1DF959CE007F5FA9 /* WSPopController.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -316,6 +329,8 @@
 				CECC74051DF7B33700703EE7 /* UIBarButtonItem+Extension.m */,
 				CECC74061DF7B33700703EE7 /* UIView+Extension.h */,
 				CECC74071DF7B33700703EE7 /* UIView+Extension.m */,
+				CECDDE641DF95A8A007F5FA9 /* UIImage+Extension.h */,
+				CECDDE651DF95A8A007F5FA9 /* UIImage+Extension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -405,9 +420,11 @@
 			files = (
 				CECC73F91DF7A65400703EE7 /* WSMessageViewController.m in Sources */,
 				CECDDE521DF942AF007F5FA9 /* WSDiscoverViewController.m in Sources */,
+				CECDDE661DF95A8A007F5FA9 /* UIImage+Extension.m in Sources */,
 				CECC73F61DF7A63100703EE7 /* WSHomeViewController.m in Sources */,
 				CECC740A1DF7B33700703EE7 /* UIView+Extension.m in Sources */,
 				CECC73FF1DF7A6B100703EE7 /* WSMeViewController.m in Sources */,
+				CECDDE5F1DF959CE007F5FA9 /* WSTitleButton.m in Sources */,
 				CECDDE4D1DF903B5007F5FA9 /* WSThreeViewController.m in Sources */,
 				CECDDE561DF943BB007F5FA9 /* WSDiscoverSearchBar.m in Sources */,
 				CECC74091DF7B33700703EE7 /* UIBarButtonItem+Extension.m in Sources */,
@@ -415,6 +432,7 @@
 				CECC73F31DF7A50000703EE7 /* WSNavigationController.m in Sources */,
 				CEACFF971DEFD43700D6088A /* WSTabController.m in Sources */,
 				CECDDE4E1DF903B5007F5FA9 /* WSTwoViewController.m in Sources */,
+				CECDDE601DF959CE007F5FA9 /* WSPopController.m in Sources */,
 				CEACFF931DEFD3A900D6088A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
